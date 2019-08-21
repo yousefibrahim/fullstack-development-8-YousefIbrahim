@@ -1,0 +1,101 @@
+/*start of nav-bar and background*/
+/*start with background image*/
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("img/main-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+/*end with background image*/
+
+.masthead h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.hr-line-1{
+    width: 10%;
+    text-align: center;
+    border-bottom: 3px solid #f4623a;;
+   margin-left: 320px;
+}
+ .btn-warning{
+        color: #fff;
+    background-color: #f4623a;
+     padding: 20px;
+     border-radius: 30px;
+     margin-top: 30px;   
+     border: none;
+}
+.btn-warning:hover{
+   color: white;
+    background:  #F02413;
+    transition: 0.87s;
+}
+/*end of nav-bar and background image*/
+
+/*start of Customer needs */
+.py-5{
+    
+    background: #f4623a;
+    min-height: 450px;
+}
+.py-5 h2{
+    margin-top: 60px;
+}
+.hr-line-2{
+    width: 7%;
+    text-align: center;
+    border-bottom: 3px solid white;
+   margin-left: 370px;
+}
+.py-5 p{
+    text-align: center;
+    color: rgba(255,255,255,.5)
+}
+.btn-dark{
+    padding: 20px;
+    background: #f8f9fa;;
+    color: black;
+    border-radius: 35px;
+    font-weight: bold;
+    border: none;
+    margin-left: 
+}
+.btn-dark:hover{
+    background: #CCCACA ;
+    transition: 0.87s;
+    color: black;
+    
+}
+/* end of py-5 section */
+/* start of services section */
+.srvices{
+    min-height: 600px;
+    margin-bottom: 90px;
+}
+.services h2{
+    margin-top: 100px;
+   
+    
+}
+.hr-line-3{
+    width: 5%;
+    border-bottom: 3px solid #f4623a;
+   margin-left: 520px;
+    margin-bottom: 90px;
+}   
+.text-primary{
+    color: #f4623a!important;
+}
+.services p{
+    color: #6c757d;
+    
+}
+
+/* end of services section */
+
